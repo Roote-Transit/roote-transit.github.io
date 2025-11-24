@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0031)https://www.perspectiveapi.com/ -->
 <html lang="en" class=" glue-flexbox">
 
 <head>
@@ -19,7 +18,7 @@
   <link rel="manifest" href="favicon/site.webmanifest" />
   <link rel="preload" as="style"
     href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400|Merriweather:100,300,400,500,700|Playfair+Display:100,300,400,500,700&amp;lang=en&amp;display=swap">
-  <link href="./Perspective API_files/index.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
   <style>
     /* Load Jigsaw Sans from the provided URL and apply it as the primary site font */
     @font-face {
@@ -80,43 +79,22 @@
               </a>
             </li>
           </ul>
-          <!-- Hamburger toggler hidden via CSS below -->
-          <span class="header__toggler" style="display: none;">
+          <span class="header__toggler">
             <span></span>
           </span>
         </nav>
       </div>
     </div>
   </header>
-  <style>
-    /* Force navbar to stay expanded */
-    .header__toggler {
-      display: none !important;
-    }
+  padding: 0;
+  box-shadow: none;
+  transform: none;
+  }
 
-    .header__list {
-      display: flex !important;
-      opacity: 1 !important;
-      visibility: visible !important;
-      pointer-events: auto !important;
-    }
-
-    /* Ensure it doesn't look broken on small screens if possible, or just respect user wish to not compact */
-    @media (max-width: 600px) {
-      .header__list {
-        position: static;
-        background: transparent;
-        height: auto;
-        width: auto;
-        padding: 0;
-        box-shadow: none;
-        transform: none;
-      }
-
-      .header__list-item {
-        margin-left: 10px;
-      }
-    }
+  .header__list-item {
+  margin-left: 10px;
+  }
+  }
   </style>
   <main id="page-content">
     <section class="bg-light-purple landing-intro-banner">
