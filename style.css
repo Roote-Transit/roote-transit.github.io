@@ -822,31 +822,31 @@ a:active,a:visited{background-color:transparent;border-color:inherit;box-shadow:
 .landing__developer-content p{color:#373434;font:16px JigsawSans-Regular,sans-serif;line-height:24px;margin:0 auto;width:95%}
 .landing__developer-card .glue-tile-set>div,.landing__developer-card .glue-tile-set>li{-ms-flex:0 0 100%;flex:0 0 100%;margin:0;width:100%}
 .landing__developer-card .glue-tile .glue-tile__header .video-illustration,.landing__developer-card .glue-tile__container .glue-tile__header .video-illustration{width:85%}
-.perspective-intro__content-middle p{margin-top:0}
-.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn,.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle,.perspective-intro__content-try-out .glue-button.glue-button--medium-emphasis{background:0 0;border:1px solid #373434;border-radius:2px;color:#373434;font:12px JigsawSans-Medium,sans-serif;letter-spacing:.1em;line-height:16px;margin:0;padding:15px 20px;text-transform:uppercase}
-.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn::after,.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle::after,.perspective-intro__content-try-out .glue-button.glue-button--medium-emphasis::after{content:'\2192';padding:0 0 1px 6px}
-.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn:visited,.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:visited,.perspective-intro__content-try-out .glue-button.glue-button--medium-emphasis:visited{background:0 0;color:#373434}
-.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn:active,.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn:focus,.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn:hover,.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:active,.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:focus,.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:hover,.perspective-intro__content-try-out .glue-button.glue-button--medium-emphasis:active,.perspective-intro__content-try-out .glue-button.glue-button--medium-emphasis:focus,.perspective-intro__content-try-out .glue-button.glue-button--medium-emphasis:hover{background:#6d2445;border-color:inherit;box-shadow:none;color:#fff}
-.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn:active,.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:active,.perspective-intro__content-try-out .glue-button.glue-button--medium-emphasis:active{font-style:italic}
-.perspective-intro__content-try-out .glue-modal .glue-button--medium-emphasis.glue-social__copy-btn::after,.perspective-intro__content-try-out .glue-modal .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle::after,.perspective-intro__content-try-out .glue-modal .glue-button.glue-button--medium-emphasis::after{content:''}
-.perspective-intro__content-try-out .glue-modal .tab-footer a::after{content:''}
-.perspective-intro__content p{color:#373434;font:15px JigsawSans-Regular,sans-serif;line-height:22px;padding:0 0 20px}
-.perspective-intro__content h4{font:italic 15px JigsawSans-Regular,sans-serif;line-height:22px}
-.perspective-intro__buttons .glue-button--medium-emphasis.glue-social__copy-btn,.perspective-intro__buttons .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle,.perspective-intro__buttons .glue-button.glue-button--medium-emphasis{background:#fff;border:1px solid #6d2445;border-radius:30px;color:#6d2445;font-size:12px;letter-spacing:.1em;line-height:20px;margin:0 5px;padding:15px 20px;text-transform:uppercase}
-.perspective-intro__buttons .glue-button--medium-emphasis.glue-social__copy-btn:visited,.perspective-intro__buttons .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:visited,.perspective-intro__buttons .glue-button.glue-button--medium-emphasis:visited{background:#6d2445;color:#fff}
-.perspective-intro__buttons .glue-button--medium-emphasis.active.glue-social__copy-btn,.perspective-intro__buttons .glue-button--medium-emphasis.active.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle,.perspective-intro__buttons .glue-button--medium-emphasis.glue-social__copy-btn:active,.perspective-intro__buttons .glue-button--medium-emphasis.glue-social__copy-btn:focus,.perspective-intro__buttons .glue-button--medium-emphasis.glue-social__copy-btn:hover,.perspective-intro__buttons .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:active,.perspective-intro__buttons .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:focus,.perspective-intro__buttons .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:hover,.perspective-intro__buttons .glue-button.glue-button--medium-emphasis.active,.perspective-intro__buttons .glue-button.glue-button--medium-emphasis:active,.perspective-intro__buttons .glue-button.glue-button--medium-emphasis:focus,.perspective-intro__buttons .glue-button.glue-button--medium-emphasis:hover{background:#6d2445;border-color:inherit;box-shadow:none;color:#fff}
-[lang=de] .perspective-intro__buttons .glue-button--medium-emphasis.glue-social__copy-btn,[lang=de] .perspective-intro__buttons .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle,[lang=de] .perspective-intro__buttons .glue-button.glue-button--medium-emphasis{margin:12px 5px}
-.perspective-intro__information p{color:#fff;font:italic 14px JigsawSans-Regular,sans-serif;line-height:18px;padding:25px 15px 35px}
-.perspective-intro__demo .tab-footer{background-color:#6d2445;color:#fff;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;width:100%}
-.perspective-intro__demo .tab-footer a{color:#fff;font-family:JigsawSans-Regular,sans-serif;font-size:13px;font-weight:400;line-height:26px;padding:15px;text-decoration:none;white-space:nowrap}
-.perspective-intro__demo .tab-footer a:active,.perspective-intro__demo .tab-footer a:hover{font-style:italic}
-.perspective-intro__demo .edit-style-tab h5{font-family:JigsawSans-Light,sans-serif;font-size:18px;opacity:.86;padding:0 15px}
-.perspective-intro__demo .edit-style-tab p{color:#fff;font-family:JigsawSans-Regular,sans-serif;font-size:15px;margin-bottom:5px;opacity:.8}
-.perspective-intro .perspective-intro__demo__editor.modal-editor .glue-tabset__panel-container,.perspective-intro .perspective-intro__demo__editor.modal-editor .tab-footer{display:none}
-.perspective-intro .perspective-intro__demo__editor.modal-editor .view-code.glue-pagination__page.glue-tabset__page{overflow-x:hidden}
-.perspective-intro__demo-container .feedback-container p{color:#6e7378;font-size:12px;letter-spacing:.05em;line-height:14px}
-.perspective-intro__result .emoji img{height:13px;width:13px}
-.perspective-intro__result .emoji div{height:10px;width:10px}
+.roote-intro__content-middle p{margin-top:0}
+.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn,.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle,.roote-intro__content-try-out .glue-button.glue-button--medium-emphasis{background:0 0;border:1px solid #373434;border-radius:2px;color:#373434;font:12px JigsawSans-Medium,sans-serif;letter-spacing:.1em;line-height:16px;margin:0;padding:15px 20px;text-transform:uppercase}
+.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn::after,.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle::after,.roote-intro__content-try-out .glue-button.glue-button--medium-emphasis::after{content:'\2192';padding:0 0 1px 6px}
+.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn:visited,.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:visited,.roote-intro__content-try-out .glue-button.glue-button--medium-emphasis:visited{background:0 0;color:#373434}
+.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn:active,.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn:focus,.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn:hover,.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:active,.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:focus,.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:hover,.roote-intro__content-try-out .glue-button.glue-button--medium-emphasis:active,.roote-intro__content-try-out .glue-button.glue-button--medium-emphasis:focus,.roote-intro__content-try-out .glue-button.glue-button--medium-emphasis:hover{background:#6d2445;border-color:inherit;box-shadow:none;color:#fff}
+.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn:active,.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:active,.roote-intro__content-try-out .glue-button.glue-button--medium-emphasis:active{font-style:italic}
+.roote-intro__content-try-out .glue-modal .glue-button--medium-emphasis.glue-social__copy-btn::after,.roote-intro__content-try-out .glue-modal .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle::after,.roote-intro__content-try-out .glue-modal .glue-button.glue-button--medium-emphasis::after{content:''}
+.roote-intro__content-try-out .glue-modal .tab-footer a::after{content:''}
+.roote-intro__content p{color:#373434;font:15px JigsawSans-Regular,sans-serif;line-height:22px;padding:0 0 20px}
+.roote-intro__content h4{font:italic 15px JigsawSans-Regular,sans-serif;line-height:22px}
+.roote-intro__buttons .glue-button--medium-emphasis.glue-social__copy-btn,.roote-intro__buttons .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle,.roote-intro__buttons .glue-button.glue-button--medium-emphasis{background:#fff;border:1px solid #6d2445;border-radius:30px;color:#6d2445;font-size:12px;letter-spacing:.1em;line-height:20px;margin:0 5px;padding:15px 20px;text-transform:uppercase}
+.roote-intro__buttons .glue-button--medium-emphasis.glue-social__copy-btn:visited,.roote-intro__buttons .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:visited,.roote-intro__buttons .glue-button.glue-button--medium-emphasis:visited{background:#6d2445;color:#fff}
+.roote-intro__buttons .glue-button--medium-emphasis.active.glue-social__copy-btn,.roote-intro__buttons .glue-button--medium-emphasis.active.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle,.roote-intro__buttons .glue-button--medium-emphasis.glue-social__copy-btn:active,.roote-intro__buttons .glue-button--medium-emphasis.glue-social__copy-btn:focus,.roote-intro__buttons .glue-button--medium-emphasis.glue-social__copy-btn:hover,.roote-intro__buttons .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:active,.roote-intro__buttons .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:focus,.roote-intro__buttons .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:hover,.roote-intro__buttons .glue-button.glue-button--medium-emphasis.active,.roote-intro__buttons .glue-button.glue-button--medium-emphasis:active,.roote-intro__buttons .glue-button.glue-button--medium-emphasis:focus,.roote-intro__buttons .glue-button.glue-button--medium-emphasis:hover{background:#6d2445;border-color:inherit;box-shadow:none;color:#fff}
+[lang=de] .roote-intro__buttons .glue-button--medium-emphasis.glue-social__copy-btn,[lang=de] .roote-intro__buttons .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle,[lang=de] .roote-intro__buttons .glue-button.glue-button--medium-emphasis{margin:12px 5px}
+.roote-intro__information p{color:#fff;font:italic 14px JigsawSans-Regular,sans-serif;line-height:18px;padding:25px 15px 35px}
+.roote-intro__demo .tab-footer{background-color:#6d2445;color:#fff;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;width:100%}
+.roote-intro__demo .tab-footer a{color:#fff;font-family:JigsawSans-Regular,sans-serif;font-size:13px;font-weight:400;line-height:26px;padding:15px;text-decoration:none;white-space:nowrap}
+.roote-intro__demo .tab-footer a:active,.roote-intro__demo .tab-footer a:hover{font-style:italic}
+.roote-intro__demo .edit-style-tab h5{font-family:JigsawSans-Light,sans-serif;font-size:18px;opacity:.86;padding:0 15px}
+.roote-intro__demo .edit-style-tab p{color:#fff;font-family:JigsawSans-Regular,sans-serif;font-size:15px;margin-bottom:5px;opacity:.8}
+.roote-intro .roote-intro__demo__editor.modal-editor .glue-tabset__panel-container,.roote-intro .roote-intro__demo__editor.modal-editor .tab-footer{display:none}
+.roote-intro .roote-intro__demo__editor.modal-editor .view-code.glue-pagination__page.glue-tabset__page{overflow-x:hidden}
+.roote-intro__demo-container .feedback-container p{color:#6e7378;font-size:12px;letter-spacing:.05em;line-height:14px}
+.roote-intro__result .emoji img{height:13px;width:13px}
+.roote-intro__result .emoji div{height:10px;width:10px}
 .edit-feedback-tab .demo-select .selected-option{font-style:italic}
 .edit-feedback-tab .feedback-buttons .glue-button--medium-emphasis.glue-social__copy-btn,.edit-feedback-tab .feedback-buttons .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle,.edit-feedback-tab .feedback-buttons .glue-button.glue-button--medium-emphasis{background:#6d2445;border:1px solid #fff;border-radius:30px;color:#fff;font-size:14px;height:30px;line-height:18px;margin:10px;padding:10px;text-transform:unset}
 .edit-feedback-tab .feedback-buttons .glue-button--medium-emphasis.glue-social__copy-btn:visited,.edit-feedback-tab .feedback-buttons .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:visited,.edit-feedback-tab .feedback-buttons .glue-button.glue-button--medium-emphasis:visited{background:#6d2445;color:#fff}
@@ -874,18 +874,18 @@ a:active,a:visited{background-color:transparent;border-color:inherit;box-shadow:
 [lang=ar] .demo-select .select-item img{margin:0 0 0 15px}
 .demo-select .select-hide{display:none}
 .demo-select .option-active,.demo-select .select-item-list div:hover{background-color:#f4eff2}
-.perspective-demo-slider .box-minmax-up span:nth-last-child(2){margin-left:20px}
-.perspective-demo-slider .box-minmax-down span:nth-last-child(2){margin-left:5px}
-.perspective-demo-slider h4{-ms-flex-item-align:start;align-self:flex-start;color:#6d2445;font-family:JigsawSans-Medium,sans-serif;font-size:16px;line-height:26px;margin:15px 18px}
-.perspective-demo-slider .range-value span{background:#e5437d;border-radius:50%;color:#fff;display:block;font-size:11px;height:30px;left:50%;line-height:24px;padding:4px;position:absolute;text-align:center;top:-22px;width:30px}
-.perspective-demo-slider .range-value span::before{border-left:11px solid transparent;border-right:11px solid transparent;border-top:15px solid #e5437d;content:'';height:0;left:50%;margin-left:-11px;margin-top:-5px;position:absolute;top:100%;width:0}
-.perspective-demo-slider .recommend-line{border:.5px solid #606060;height:0;position:absolute;right:85px;top:113px;-ms-transform:rotate(90deg);transform:rotate(90deg);width:35px;z-index:-1}
-.perspective-intro__demo .popup-container .popup-button{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;padding:30px 0}
-.perspective-intro__demo .popup-container .popup-content p{color:#373434;font-family:JigsawSans-Regular,sans-serif;font-size:14px;line-height:26px;padding:0 10px 20px}
-.perspective-intro__demo .popup-container .popup-content p a{color:#6d2445;font-family:JigsawSans-Regular,sans-serif;text-decoration:underline;text-underline-position:under}
-.perspective-intro__demo .popup-container .popup-content p a::after{content:''}
-.perspective-intro__demo .popup-container .popup-content p a:visited{color:#6d2445}
-.perspective-intro__demo .popup-container .popup-content p a:hover{font-style:italic}
+.roote-demo-slider .box-minmax-up span:nth-last-child(2){margin-left:20px}
+.roote-demo-slider .box-minmax-down span:nth-last-child(2){margin-left:5px}
+.roote-demo-slider h4{-ms-flex-item-align:start;align-self:flex-start;color:#6d2445;font-family:JigsawSans-Medium,sans-serif;font-size:16px;line-height:26px;margin:15px 18px}
+.roote-demo-slider .range-value span{background:#e5437d;border-radius:50%;color:#fff;display:block;font-size:11px;height:30px;left:50%;line-height:24px;padding:4px;position:absolute;text-align:center;top:-22px;width:30px}
+.roote-demo-slider .range-value span::before{border-left:11px solid transparent;border-right:11px solid transparent;border-top:15px solid #e5437d;content:'';height:0;left:50%;margin-left:-11px;margin-top:-5px;position:absolute;top:100%;width:0}
+.roote-demo-slider .recommend-line{border:.5px solid #606060;height:0;position:absolute;right:85px;top:113px;-ms-transform:rotate(90deg);transform:rotate(90deg);width:35px;z-index:-1}
+.roote-intro__demo .popup-container .popup-button{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;padding:30px 0}
+.roote-intro__demo .popup-container .popup-content p{color:#373434;font-family:JigsawSans-Regular,sans-serif;font-size:14px;line-height:26px;padding:0 10px 20px}
+.roote-intro__demo .popup-container .popup-content p a{color:#6d2445;font-family:JigsawSans-Regular,sans-serif;text-decoration:underline;text-underline-position:under}
+.roote-intro__demo .popup-container .popup-content p a::after{content:''}
+.roote-intro__demo .popup-container .popup-content p a:visited{color:#6d2445}
+.roote-intro__demo .popup-container .popup-content p a:hover{font-style:italic}
 .view-code-tab__container .glue-button--medium-emphasis.glue-social__copy-btn,.view-code-tab__container .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle,.view-code-tab__container .glue-button.glue-button--medium-emphasis{background:0 0;border:1px solid #fff;border-radius:5px;color:#fff;font-family:JigsawSans-Regular,sans-serif;font-size:15px;height:38px;letter-spacing:unset;line-height:20px;margin:0 15px 5px 0;padding:15px 20px;text-transform:unset}
 .view-code-tab__container .glue-button--medium-emphasis.glue-social__copy-btn:visited,.view-code-tab__container .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:visited,.view-code-tab__container .glue-button.glue-button--medium-emphasis:visited{background:#6d2445;color:#fff}
 .view-code-tab__container .glue-button--medium-emphasis.glue-social__copy-btn:active,.view-code-tab__container .glue-button--medium-emphasis.glue-social__copy-btn:focus,.view-code-tab__container .glue-button--medium-emphasis.glue-social__copy-btn:hover,.view-code-tab__container .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:active,.view-code-tab__container .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:focus,.view-code-tab__container .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle:hover,.view-code-tab__container .glue-button.glue-button--medium-emphasis:active,.view-code-tab__container .glue-button.glue-button--medium-emphasis:focus,.view-code-tab__container .glue-button.glue-button--medium-emphasis:hover{background:#fff;border-color:inherit;box-shadow:none;color:#451735}
@@ -900,8 +900,8 @@ a:active,a:visited{background-color:transparent;border-color:inherit;box-shadow:
 [lang=ar] .how-it-works__toxicity .toxicity__left ul li{background:url(/static/img/how-it-works/bullet-icon.svg) no-repeat right;background-size:24px;padding:3px 28px 3px 0}
 .how-it-works__language .language__description p{color:#373434;font:16px JigsawSans-Regular,sans-serif;line-height:23px}
 .how-it-works__applying-model .applying-model__right p{color:#373434;font:16px JigsawSans-Regular,sans-serif;line-height:23px}
-.how-it-works__perspective-api .perspective-api__step-img{margin-bottom:10px;text-align:center}
-.how-it-works__perspective-api .perspective-api__step-img img{height:40px}
+.how-it-works__roote-api .roote-api__step-img{margin-bottom:10px;text-align:center}
+.how-it-works__roote-api .roote-api__step-img img{height:40px}
 .guide-section{padding:55px 0 45px}
 .guide-section__content p{color:#373434;font:16px JigsawSans-Regular,sans-serif;line-height:23px;margin:0 auto;width:95%}
 .learn-section{background-color:#451735;padding:95px 0 75px}
@@ -1078,12 +1078,12 @@ a:active,a:visited{background-color:transparent;border-color:inherit;box-shadow:
   .landing__developer h3{font-size:18px;line-height:23px}
   .landing__developer-content p{font-size:21px;line-height:30px;padding:0 0 30px;width:80%}
   .landing__developer-card .glue-tile-set>div,.landing__developer-card .glue-tile-set>li{-ms-flex:0 0 280px;flex:0 0 280px;width:280px}
-  .perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn,.perspective-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle,.perspective-intro__content-try-out .glue-button.glue-button--medium-emphasis{font-size:14px;line-height:20px}
-  .perspective-intro__content p{font-size:18px;line-height:26px}
-  .perspective-intro__content h4{font-size:18px;line-height:26px}
+  .roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__copy-btn,.roote-intro__content-try-out .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle,.roote-intro__content-try-out .glue-button.glue-button--medium-emphasis{font-size:14px;line-height:20px}
+  .roote-intro__content p{font-size:18px;line-height:26px}
+  .roote-intro__content h4{font-size:18px;line-height:26px}
   .edit-feedback-tab .positive-feedback .recommend-line{left:116px}
-  .perspective-demo-slider .range-value span{top:-19px}
-  .perspective-demo-slider .recommend-line{right:116px}
+  .roote-demo-slider .range-value span{top:-19px}
+  .roote-demo-slider .recommend-line{right:116px}
   .how-it-works__toxicity .toxicity__left ul{columns:2}
   .how-it-works__toxicity .toxicity__left ul li{font-size:18px;line-height:34px}
   .how-it-works__language .language__description p{font-size:18px;line-height:26px}
@@ -1257,12 +1257,12 @@ a:active,a:visited{background-color:transparent;border-color:inherit;box-shadow:
   [lang=de] .landing__get-started-card .glue-tile .glue-tile__description p,[lang=de] .landing__get-started-card .glue-tile__container .glue-tile__description p{min-height:220px}
   [lang=es] .landing__get-started-card .glue-tile .glue-tile__description p,[lang=es] .landing__get-started-card .glue-tile__container .glue-tile__description p{min-height:165px}
   .landing__developer-content p{width:70%}
-  .perspective-intro__information p{color:#686868;padding:20px 0}
+  .roote-intro__information p{color:#686868;padding:20px 0}
   .edit-feedback-tab .demo-feedback-label{padding:0 5px 0 0}
   .demo-select .select-item-list.negative-toxic-message,.demo-select .select-item-list.positive-toxic-message{top:23px}
   .demo-select .select-item-list{top:23px}
   .demo-select .select-item-list.neutral-toxic-message{top:-60px}
-  .perspective-intro__demo .popup-container .popup-content p{font-size:16px;padding:0 0 20px}
+  .roote-intro__demo .popup-container .popup-content p{font-size:16px;padding:0 0 20px}
   .guide-section{padding:120px 0 80px}
   .guide-section__content p{width:64%}
   .learn-section__content p{width:60%}
@@ -1370,7 +1370,7 @@ a:active,a:visited{background-color:transparent;border-color:inherit;box-shadow:
   .glue-header__bar--mobile .glue-header__cta .glue-button,.glue-header__bar--mobile .glue-header__cta .glue-social__copy-btn,.glue-header__bar--mobile .glue-header__cta .glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle{margin-left:0}
   .glue-header__bar--mobile .glue-header__cta .glue-button--medium-emphasis.glue-social__copy-btn,.glue-header__bar--mobile .glue-header__cta .glue-button--medium-emphasis.glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle,.glue-header__bar--mobile .glue-header__cta .glue-button.glue-button--low-emphasis,.glue-header__bar--mobile .glue-header__cta .glue-button.glue-button--medium-emphasis,.glue-header__bar--mobile .glue-header__cta .glue-social__copy-btn,.glue-header__bar--mobile .glue-header__cta .glue-social__title.glue-social__title--zippy.glue-expansion-panel-toggle{display:none}
   .tab-section .card-overlay{background:#fff;padding:0}
-  .perspective-intro__content p.disagree-link{padding:0}
+  .roote-intro__content p.disagree-link{padding:0}
   .demo-select .select-item-list.neutral-toxic-message{top:-110px}
   .demo-select.model-switch .select-item-list{top:41px}
 }
@@ -1454,8 +1454,8 @@ a:active,a:visited{background-color:transparent;border-color:inherit;box-shadow:
 @media only screen and (max-width:599px) {
   .how-it-works__machine-learning .machine-learning__heading .sub-heading h1{font-size:28px;line-height:34px}
   .how-it-works__toxicity .toxicity__left p{color:#373434;font:16px JigsawSans-Regular,sans-serif;line-height:23px}
-  .how-it-works__perspective-api .perspective-api__step-img{text-align:left}
-  .how-it-works__perspective-api .perspective-api .glue-grid__col{display:-ms-flexbox;display:flex;margin-bottom:15px}
+  .how-it-works__roote-api .roote-api__step-img{text-align:left}
+  .how-it-works__roote-api .roote-api .glue-grid__col{display:-ms-flexbox;display:flex;margin-bottom:15px}
 }
 @media only screen and (min-width:768px) and (max-width:899px) {
   .how-it-works__toxicity .toxicity__left ul li{font-size:15px}
@@ -1464,11 +1464,11 @@ a:active,a:visited{background-color:transparent;border-color:inherit;box-shadow:
   .how-it-works__toxicity .toxicity__left ul{columns:1}
 }
 @media only screen and (min-width:500px) and (max-width:599px) {
-  .how-it-works__perspective-api .perspective-api .glue-grid{padding:0 60px}
+  .how-it-works__roote-api .roote-api .glue-grid{padding:0 60px}
 }
 @media only screen and (max-width:499px) {
-  .how-it-works__perspective-api .perspective-api .glue-grid{padding:0 20px}
+  .how-it-works__roote-api .roote-api .glue-grid{padding:0 20px}
 }
 @media only screen and (max-width:360px) {
-  .how-it-works__perspective-api .perspective-api .glue-grid{padding:0}
+  .how-it-works__roote-api .roote-api .glue-grid{padding:0}
 }
