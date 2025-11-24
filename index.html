@@ -12,16 +12,14 @@
   <meta name="description" content="Roote Transit helps cities and towns manage assets and ticketing efficiently.">
 
   <meta name="referrer" content="no-referrer">
-  <link rel="shortcut icon" href="https://www.perspectiveapi.com/static/img/favicon.ico?cache=aad0fa5">
+  <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+  <link rel="shortcut icon" href="favicon/favicon.ico" />
+  <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="favicon/site.webmanifest" />
   <link rel="preload" as="style"
     href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400|Merriweather:100,300,400,500,700|Playfair+Display:100,300,400,500,700&amp;lang=en&amp;display=swap">
   <link href="./Perspective API_files/index.min.css" rel="stylesheet">
-  <link async="" href="./Perspective API_files/cookienotificationbar.min.css" rel="stylesheet">
-  <!-- <script type="text/javascript" async="" charset="utf-8" src="./Perspective API_files/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-qNLemyKcD24MKXWUXqTaOJ9ESai7afdFb4RzK+fa3lNAf2knAo6+3YtXf5YGXQM5"></script> -->
-  <!-- <script src="./Perspective API_files/detect.min.js"></script> -->
-  <!-- <script async="" src="./Perspective API_files/perspective_authorship_widget_with_recaptcha.js"></script> -->
-  <!-- <script async="" src="./Perspective API_files/api.js"></script> -->
-  <!-- <script async="" src="./Perspective API_files/js"></script> -->
   <style>
     /* Load Jigsaw Sans from the provided URL and apply it as the primary site font */
     @font-face {
@@ -66,7 +64,7 @@
           <div class="glue-header__lock-up">
             <div class="glue-header__logo">
               <a class="glue-header__logo-link" href="#" aria-label="Roote" tabindex="0">
-                <!-- <img src="./Perspective API_files/perspective-logo.svg" alt="Roote" class="header__area-container-logo" loading="lazy"> -->
+                <!-- <img src="./logo.png" alt="Roote" class="header__area-container-logo" loading="lazy"> -->
                 <div class="header-logo-title" style="font-size:1.5em; color:#555;">Roote Transit</div>
               </a>
             </div>
@@ -76,18 +74,50 @@
           </div>
           <ul class="header__list">
             <li class="header__list-item header__list-submenu">
-              <span class="glue-button glue-button--medium-emphasis js-submenu">
+              <a class="glue-button glue-button--medium-emphasis js-submenu" href="#contact-us"
+                style="text-decoration: none; display: inline-flex;">
                 Request a demo
-              </span>
+              </a>
             </li>
           </ul>
-          <span class="header__toggler">
+          <!-- Hamburger toggler hidden via CSS below -->
+          <span class="header__toggler" style="display: none;">
             <span></span>
           </span>
         </nav>
       </div>
     </div>
   </header>
+  <style>
+    /* Force navbar to stay expanded */
+    .header__toggler {
+      display: none !important;
+    }
+
+    .header__list {
+      display: flex !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+      pointer-events: auto !important;
+    }
+
+    /* Ensure it doesn't look broken on small screens if possible, or just respect user wish to not compact */
+    @media (max-width: 600px) {
+      .header__list {
+        position: static;
+        background: transparent;
+        height: auto;
+        width: auto;
+        padding: 0;
+        box-shadow: none;
+        transform: none;
+      }
+
+      .header__list-item {
+        margin-left: 10px;
+      }
+    }
+  </style>
   <main id="page-content">
     <section class="bg-light-purple landing-intro-banner">
       <div class="glue-page glue-mod-text-center">
@@ -138,7 +168,8 @@
 
         <div class="landing__get-started-card"
           style="max-width: 600px; margin: 0 auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3), 0 1px 3px 1px rgba(60,64,67,0.15);">
-          <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 1.5rem; text-align: left;">
+          <form action="https://roote.petervh.com/contact" method="POST"
+            style="display: flex; flex-direction: column; gap: 1.5rem; text-align: left;">
             <div style="display: flex; flex-direction: column; gap: 0.5rem;">
               <label for="name" style="font-weight: 500; color: #202124;">Name</label>
               <input type="text" id="name" name="name" required
@@ -205,26 +236,8 @@
       </div>
     </div>
   </footer>
-  <script async="" src="./Perspective API_files/hammer.min.js"></script>
-  <script async="" src="./Perspective API_files/lottie-player.min.js"></script>
-  <script src="./Perspective API_files/index.min.js"></script>
-  <script async="" src="./Perspective API_files/cookienotificationbar.min.js"
-    data-glue-cookie-notification-bar-category="2B" data-glue-cookie-notification-bar-language="en"
-    data-glue-cookie-notification-bar-site-id="perspectiveapi.com">
-    </script>
+  <script src="script.js"></script>
 
-  <div>
-    <div class="grecaptcha-badge" data-style="bottomright"
-      style="width: 256px; height: 60px; position: fixed; visibility: hidden; display: block; transition: right 0.3s; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;">
-      <div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation"
-          name="a-siyw8vpp7fzy" frameborder="0" scrolling="no"
-          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
-          src="./Perspective API_files/anchor.html"></iframe></div>
-      <div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response"
-        class="g-recaptcha-response"
-        style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
-    </div><iframe style="display: none;" src="./Perspective API_files/saved_resource.html"></iframe>
-  </div>
 </body>
 
 </html>
