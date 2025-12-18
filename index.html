@@ -134,6 +134,15 @@
                 style="padding: 0.75rem; border: 1px solid #dadce0; border-radius: 4px; font-family: inherit; color: #202124;">
             </div>
 
+            <div class="visually-hidden">
+              <label for="phone_number">Phone Number</label>
+              <input type="text" id="phone_number" name="phone_number" tabindex="-1" autocomplete="off">
+            </div>
+
+            <!-- Time-based protection -->
+            <input type="hidden" name="seconds_on_page" id="seconds_on_page" value="">
+
+
             <div style="display: flex; flex-direction: column; gap: 0.5rem;">
               <label for="message" style="font-weight: 500; color: #202124;">Message</label>
               <textarea id="message" name="message" rows="4"

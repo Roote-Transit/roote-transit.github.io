@@ -9126,3 +9126,15 @@ a:visited {
     padding: 0
   }
 }
+
+/* Utility class to hide content visually while keeping it accessible to screen readers */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
